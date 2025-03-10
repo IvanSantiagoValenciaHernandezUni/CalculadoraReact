@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState("Calculadora");
 
   // Función para manejar los clicks en los botones
   const handleClick = (value) => {
